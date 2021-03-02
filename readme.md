@@ -37,7 +37,7 @@ In a production system, you will most likely be using a permanent MySQL instance
 
 Click the `+Add` button and choose `From Git` type:
 
-Fill the git repo with the following value `https://github.com/redhat-developer-demos/spring-petclinic` and select the project as Java project:
+Fill the git repo with the following value `https://github.com/redhat-developer-demos/spring-petclinic` and select the project as Java project. Expand `Show advanced Git options` and for `Git reference`specify 'main' (or an alternative branch if appropriate). This will ensure the `Edit Source Code` option from the OpenShift Topology view works correctly; 'master' is assumed if this value is ommitted.
 
 ![Pet Clinic Deploy](images/7-petclinic-deploy.png)
 
