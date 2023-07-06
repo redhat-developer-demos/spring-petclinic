@@ -84,7 +84,7 @@ class OwnerController {
 	@GetMapping("/owners")
 	public String processFindForm(Owner owner, BindingResult result, Map<String, Object> model) {
 
-		System.out.println("Searching for " + owner.getLastName().trim());
+		System.out.println("Searching for DARSHAN SHAH July 6th" + owner.getLastName().trim());
 
 		// find owners by last name
 		Collection<Owner> results = this.owners.findByLastName(owner.getLastName());
